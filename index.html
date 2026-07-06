@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragul R — Python Full Stack Developer</title>
+  <meta name="title" content="Ragul R — Python Full Stack Developer">
+  <meta name="description" content="Portfolio of Ragul R, a Python Full Stack Developer skilled in Django, MySQL, and modern responsive frontend development. Building scalable, real-world web applications.">
+  <meta name="author" content="Ragul R">
+  <meta name="keywords" content="Ragul R, Python Developer, Django Developer, Full Stack Developer, Portfolio, Tamil Nadu, Software Engineer">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ragul R — Python Full Stack Developer">
+  <meta property="og:description" content="Python Full Stack Developer specializing in Django, MySQL, and responsive web development.">
+  <meta property="og:image" content="./images/profile.jpg">
+  <meta property="og:site_name" content="Ragul R — Portfolio">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ragul R — Python Full Stack Developer">
+  <meta name="twitter:description" content="Python Full Stack Developer specializing in Django, MySQL, and responsive web development.">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ragul R",
+    "jobTitle": "Python Full Stack Developer",
+    "email": "mailto:ragulsam195@gmail.com",
+    "telephone": "+91-9042930496",
+    "sameAs": ["https://www.linkedin.com/in/ragul-msc", "https://github.com/RagulR-04"],
+    "address": { "@type": "PostalAddress", "addressRegion": "Tamil Nadu", "addressCountry": "India" },
+    "knowsAbout": ["Python", "Django", "JavaScript", "MySQL", "REST API", "Full Stack Development"]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="./icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ===== Loading Screen ===== -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__mark">R<span>.</span></div>
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <!-- ===== Scroll Progress ===== -->
+  <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-hidden="true"></div>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ===== Floating Navigation ===== -->
+  <header class="dock" id="siteNav">
+    <div class="dock__inner">
+      <nav class="dock__links" id="navLinks" aria-label="Primary navigation">
+        <a href="#home" class="dock__link active" data-nav>Home</a>
+        <a href="#about" class="dock__link" data-nav>About</a>
+        <a href="#education" class="dock__link" data-nav>Education</a>
+        <a href="#skills" class="dock__link" data-nav>Skills</a>
+        <a href="#projects" class="dock__link" data-nav>Projects</a>
+        <a href="#experience" class="dock__link" data-nav>Experience</a>
+        <a href="#contact" class="dock__link" data-nav>Contact</a>
+        <span class="dock__indicator" id="dockIndicator" aria-hidden="true"></span>
+      </nav>
+
+      <a href="./resume/Ragul_R_Resume.pdf" class="btn btn--sm btn--primary dock__cta" download>Resume</a>
+
+      <button class="dock__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="orb orb--1"></span>
+        <span class="orb orb--2"></span>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Python · Django · Full&nbsp;Stack&nbsp;Developer</p>
+
+          <h1 class="hero__name">Ragul&nbsp;R</h1>
+          <p class="hero__role"><span class="hero__role-line"></span>Python Full Stack Developer</p>
+
+          <p class="hero__lede">
+            I design and ship end-to-end web applications with Python and Django —
+            from schema and server logic to the interface people actually touch.
+            Currently pursuing my M.Sc. in Computer Science while building real,
+            database-driven products for real problems.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+          </div>
+
+          <div class="hero__stats" aria-label="Quick facts">
+            <div class="hero__stat">
+              <span class="hero__stat-num" data-counter data-target="3">0</span>
+              <span class="hero__stat-label">Full Stack Projects</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num" data-counter data-target="3">0</span>
+              <span class="hero__stat-label">Months Internship</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num" data-counter data-target="2">0</span>
+              <span class="hero__stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay-1">
+          <div class="portrait">
+            <div class="portrait__ring" aria-hidden="true"></div>
+            <div class="portrait__ring portrait__ring--dashed" aria-hidden="true"></div>
+            <span class="portrait__satellite" aria-hidden="true"></span>
+            <div class="portrait__frame">
+              <img src="./images/profile.jpg" alt="Portrait of Ragul R, Python Full Stack Developer" width="900" height="900">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="section__eyebrow reveal">01 — About</p>
+        <h2 id="about-title" class="section__title reveal">Professional Summary</h2>
+
+        <div class="about__grid">
+          <p class="about__text reveal">
+            I'm a Python Full Stack Developer with hands-on experience building scalable
+            web applications using Python, Django, and modern front-end tools. I've delivered
+            end-to-end products — CRM platforms, service marketplaces, task managers —
+            with a solid grip on OOP principles, RESTful architecture, and database
+            optimization. I'm currently completing my M.Sc. in Computer Science while
+            contributing to real production features, and I care about writing code that's
+            clean today and maintainable a year from now.
+          </p>
+
+          <div class="about__card reveal reveal--delay-1">
+            <h3 class="about__card-title">Career Objective</h3>
+            <p>
+              To secure a full-time Software Engineer role where I can apply my Python and
+              Django expertise to build scalable, reliable applications — while continuously
+              learning new technologies and contributing meaningfully to a team that values
+              quality and growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section section--alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <p class="section__eyebrow reveal">02 — Academic Background</p>
+        <h2 id="education-title" class="section__title reveal">Education</h2>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__years">2024 – 2026</span>
+              <h3 class="timeline__degree">M.Sc Computer Science</h3>
+              <p class="timeline__school">Kongu Arts and Science College, Erode</p>
+              <span class="timeline__score">Percentage: 75%</span>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal reveal--delay-1">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__years">2021 – 2024</span>
+              <h3 class="timeline__degree">B.Sc Computer Science</h3>
+              <p class="timeline__school">Sri Vasavi College, Erode</p>
+              <span class="timeline__score">Percentage: 77%</span>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal reveal--delay-2">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__years">2021</span>
+              <h3 class="timeline__degree">HSC</h3>
+              <p class="timeline__school">Shri Janani Matriculation Higher Secondary School, Erode</p>
+              <span class="timeline__score">Percentage: 90%</span>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal reveal--delay-2">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__years">2019</span>
+              <h3 class="timeline__degree">SSLC</h3>
+              <p class="timeline__school">Shri Janani Matriculation Higher Secondary School, Erode</p>
+              <span class="timeline__score">Percentage: 88%</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <p class="section__eyebrow reveal">03 — Toolbox</p>
+        <h2 id="skills-title" class="section__title reveal">Technical Skills</h2>
+        <p class="section__intro reveal">Technologies and tools I use to design, build, and ship full stack applications.</p>
+
+        <div class="skills__grid">
+          <div class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">🐍</div>
+            <h3 class="skill-card__title">Languages</h3>
+            <div class="skill-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal reveal--delay-1">
+            <div class="skill-card__icon" aria-hidden="true">⚙️</div>
+            <h3 class="skill-card__title">Frameworks &amp; Libraries</h3>
+            <div class="skill-card__tags">
+              <span class="tag">Django</span>
+              <span class="tag">Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal reveal--delay-2">
+            <div class="skill-card__icon" aria-hidden="true">🗄️</div>
+            <h3 class="skill-card__title">Databases</h3>
+            <div class="skill-card__tags">
+              <span class="tag">MySQL</span>
+              <span class="tag">SQLite</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">🔧</div>
+            <h3 class="skill-card__title">Tools &amp; Platforms</h3>
+            <div class="skill-card__tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">XAMPP</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal reveal--delay-1">
+            <div class="skill-card__icon" aria-hidden="true">🧠</div>
+            <h3 class="skill-card__title">Python Concepts</h3>
+            <div class="skill-card__tags">
+              <span class="tag">OOP</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">File Handling</span>
+              <span class="tag">Exception Handling</span>
+              <span class="tag">Scripting</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal reveal--delay-2">
+            <div class="skill-card__icon" aria-hidden="true">🤝</div>
+            <h3 class="skill-card__title">Soft Skills</h3>
+            <div class="skill-card__tags">
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Teamwork</span>
+              <span class="tag">Adaptability</span>
+              <span class="tag">Leadership</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section section--alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="section__eyebrow reveal">04 — Selected Work</p>
+        <h2 id="projects-title" class="section__title reveal">Projects</h2>
+        <p class="section__intro reveal">A few full stack builds where I designed the schema, wired up the backend, and shipped the interface.</p>
+
+        <div class="projects__grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 240" class="project-card__svg" role="img" aria-label="CRM System dashboard preview">
+                <rect width="400" height="240" fill="#11161D"/>
+                <rect x="0" y="0" width="400" height="34" fill="#171D26"/>
+                <circle cx="18" cy="17" r="4" fill="#E7B54B"/>
+                <circle cx="34" cy="17" r="4" fill="#4FA9A2"/>
+                <circle cx="50" cy="17" r="4" fill="#3E7CB1"/>
+                <rect x="16" y="52" width="90" height="172" rx="8" fill="#171D26"/>
+                <rect x="28" y="68" width="66" height="8" rx="4" fill="#E7B54B"/>
+                <rect x="28" y="92" width="50" height="6" rx="3" fill="#2A3240"/>
+                <rect x="28" y="108" width="50" height="6" rx="3" fill="#2A3240"/>
+                <rect x="28" y="124" width="50" height="6" rx="3" fill="#2A3240"/>
+                <rect x="28" y="140" width="50" height="6" rx="3" fill="#2A3240"/>
+                <rect x="122" y="52" width="262" height="76" rx="8" fill="#171D26"/>
+                <rect x="140" y="68" width="80" height="10" rx="3" fill="#F5F2EA"/>
+                <rect x="140" y="90" width="226" height="26" rx="6" fill="#11161D"/>
+                <rect x="150" y="98" width="60" height="10" rx="3" fill="#3E7CB1"/>
+                <rect x="122" y="140" width="126" height="84" rx="8" fill="#171D26"/>
+                <polyline points="134,205 150,180 168,195 186,160 202,175 220,150 236,168" fill="none" stroke="#E7B54B" stroke-width="3"/>
+                <rect x="258" y="140" width="126" height="84" rx="8" fill="#171D26"/>
+                <circle cx="300" cy="182" r="28" fill="none" stroke="#3E7CB1" stroke-width="10"/>
+                <circle cx="300" cy="182" r="28" fill="none" stroke="#4FA9A2" stroke-width="10" stroke-dasharray="90 176"/>
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">CRM System for Company Automation</h3>
+              <p class="project-card__desc">
+                A centralized CRM platform to streamline customer data management and automate
+                sales workflows — with secure authentication, a lead-tracking module, and a
+                real-time reporting dashboard.
+              </p>
+              <div class="project-card__badges">
+                <span class="badge">Python</span>
+                <span class="badge">Django</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">JavaScript</span>
+              </div>
+              <ul class="project-card__features">
+                <li>Employee, attendance &amp; budget tracking</li>
+                <li>Lead tracking &amp; reporting dashboard</li>
+                <li>Optimized MySQL queries for speed</li>
+                <li>Full CRUD operations</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--sm btn--ghost" aria-label="View CRM System source code on GitHub">GitHub</a>
+                <a href="#" class="btn btn--sm btn--primary" aria-label="View CRM System live demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal reveal--delay-1">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 240" class="project-card__svg" role="img" aria-label="Local Service Marketplace preview">
+                <rect width="400" height="240" fill="#11161D"/>
+                <rect x="0" y="0" width="400" height="34" fill="#171D26"/>
+                <circle cx="18" cy="17" r="4" fill="#E7B54B"/>
+                <circle cx="34" cy="17" r="4" fill="#4FA9A2"/>
+                <circle cx="50" cy="17" r="4" fill="#3E7CB1"/>
+                <rect x="16" y="52" width="368" height="30" rx="15" fill="#171D26"/>
+                <circle cx="34" cy="67" r="6" fill="none" stroke="#E7B54B" stroke-width="2"/>
+                <line x1="39" y1="72" x2="44" y2="77" stroke="#E7B54B" stroke-width="2"/>
+                <rect x="56" y="63" width="140" height="8" rx="4" fill="#2A3240"/>
+                <rect x="16" y="96" width="115" height="128" rx="8" fill="#171D26"/>
+                <rect x="16" y="96" width="115" height="64" rx="8" fill="#3E7CB1" opacity="0.5"/>
+                <rect x="28" y="170" width="90" height="8" rx="3" fill="#F5F2EA"/>
+                <rect x="28" y="186" width="60" height="6" rx="3" fill="#E7B54B"/>
+                <rect x="140" y="96" width="115" height="128" rx="8" fill="#171D26"/>
+                <rect x="140" y="96" width="115" height="64" rx="8" fill="#4FA9A2" opacity="0.35"/>
+                <rect x="152" y="170" width="90" height="8" rx="3" fill="#F5F2EA"/>
+                <rect x="152" y="186" width="60" height="6" rx="3" fill="#E7B54B"/>
+                <rect x="264" y="96" width="120" height="128" rx="8" fill="#171D26"/>
+                <rect x="264" y="96" width="120" height="64" rx="8" fill="#3E7CB1" opacity="0.35"/>
+                <rect x="276" y="170" width="90" height="8" rx="3" fill="#F5F2EA"/>
+                <rect x="276" y="186" width="60" height="6" rx="3" fill="#E7B54B"/>
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Local Service Marketplace</h3>
+              <p class="project-card__desc">
+                A full-stack marketplace connecting customers with local service providers —
+                with search, role-based authentication, and a ratings &amp; review module for
+                service quality visibility.
+              </p>
+              <div class="project-card__badges">
+                <span class="badge">Python</span>
+                <span class="badge">Django</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">Bootstrap</span>
+              </div>
+              <ul class="project-card__features">
+                <li>Service search &amp; booking flow</li>
+                <li>Role-based customer/provider access</li>
+                <li>Ratings &amp; reviews module</li>
+                <li>Fully responsive design</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--sm btn--ghost" aria-label="View Local Service Marketplace source code on GitHub">GitHub</a>
+                <a href="#" class="btn btn--sm btn--primary" aria-label="View Local Service Marketplace live demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal reveal--delay-2">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 240" class="project-card__svg" role="img" aria-label="Smart Task Manager preview">
+                <rect width="400" height="240" fill="#11161D"/>
+                <rect x="0" y="0" width="400" height="34" fill="#171D26"/>
+                <circle cx="18" cy="17" r="4" fill="#E7B54B"/>
+                <circle cx="34" cy="17" r="4" fill="#4FA9A2"/>
+                <circle cx="50" cy="17" r="4" fill="#3E7CB1"/>
+                <rect x="16" y="52" width="115" height="172" rx="8" fill="#171D26"/>
+                <rect x="28" y="66" width="60" height="8" rx="3" fill="#F5F2EA"/>
+                <rect x="28" y="88" width="91" height="34" rx="6" fill="#11161D"/>
+                <rect x="36" y="98" width="60" height="6" rx="3" fill="#E7B54B"/>
+                <rect x="28" y="130" width="91" height="34" rx="6" fill="#11161D"/>
+                <rect x="36" y="140" width="70" height="6" rx="3" fill="#525C6B"/>
+                <rect x="145" y="52" width="115" height="172" rx="8" fill="#171D26"/>
+                <rect x="157" y="66" width="60" height="8" rx="3" fill="#F5F2EA"/>
+                <rect x="157" y="88" width="91" height="34" rx="6" fill="#3E7CB1" opacity="0.5"/>
+                <rect x="165" y="98" width="60" height="6" rx="3" fill="#F5F2EA"/>
+                <rect x="274" y="52" width="110" height="172" rx="8" fill="#171D26"/>
+                <rect x="286" y="66" width="60" height="8" rx="3" fill="#F5F2EA"/>
+                <rect x="286" y="88" width="86" height="34" rx="6" fill="#4FA9A2" opacity="0.4"/>
+                <rect x="294" y="98" width="55" height="6" rx="3" fill="#F5F2EA"/>
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Smart Task Manager</h3>
+              <p class="project-card__desc">
+                A task management system that helps users organize work by category, deadline,
+                and priority, with a live status-tracking dashboard.
+              </p>
+              <div class="project-card__badges">
+                <span class="badge">Python</span>
+                <span class="badge">Django</span>
+                <span class="badge">SQLite</span>
+                <span class="badge">JavaScript</span>
+              </div>
+              <ul class="project-card__features">
+                <li>Task categories &amp; priority levels</li>
+                <li>Deadline &amp; status tracking</li>
+                <li>Live dashboard overview</li>
+                <li>Responsive interface</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--sm btn--ghost" aria-label="View Smart Task Manager source code on GitHub">GitHub</a>
+                <a href="#" class="btn btn--sm btn--primary" aria-label="View Smart Task Manager live demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <p class="section__eyebrow reveal">05 — Track Record</p>
+        <h2 id="experience-title" class="section__title reveal">Experience &amp; Recognition</h2>
+
+        <div class="experience__grid">
+
+          <div class="internship-card reveal">
+            <div class="internship-card__head">
+              <div>
+                <h3 class="internship-card__role">Python Full Stack Developer — Intern</h3>
+                <p class="internship-card__company">Hanvith Technologies · Coimbatore, Tamil Nadu</p>
+              </div>
+              <span class="internship-card__duration">Dec 2025 – Feb 2026 · 3 Months</span>
+            </div>
+            <ul class="internship-card__list">
+              <li>Developed &amp; maintained full-stack features for a production app</li>
+              <li>Built with Python, Django, JavaScript, Bootstrap &amp; MySQL</li>
+              <li>Turned UI wireframes into responsive Bootstrap pages</li>
+              <li>Wrote clean, modular code for long-term maintainability</li>
+              <li>Executed unit tests &amp; supported deployment</li>
+              <li>Collaborated with the team using Git &amp; code reviews</li>
+            </ul>
+          </div>
+
+          <div class="experience__side">
+            <div class="cert-card reveal reveal--delay-1">
+              <div class="cert-card__badge" aria-hidden="true">🏅</div>
+              <div>
+                <h3 class="cert-card__title">Core Python Certification</h3>
+                <p class="cert-card__sub">Strong understanding of OOP, data structures, file &amp; exception handling, and scripting.</p>
+              </div>
+            </div>
+
+            <div class="cert-card reveal reveal--delay-2">
+              <div class="cert-card__badge" aria-hidden="true">🎓</div>
+              <div>
+                <h3 class="cert-card__title">Programming in Python</h3>
+                <p class="cert-card__sub">SWAYAM (NPTEL), Government of India.</p>
+              </div>
+            </div>
+
+            <div class="achievements reveal reveal--delay-2">
+              <h3 class="achievements__title">Achievements</h3>
+              <ul class="achievements__list">
+                <li>Delivered multiple end-to-end full stack projects</li>
+                <li>Strong grip on Python &amp; Django fundamentals</li>
+                <li>Built database-driven web applications from scratch</li>
+                <li>Continuously learning modern web technologies</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section--cta" id="contact" aria-labelledby="contact-title">
+      <div class="container contact">
+        <p class="section__eyebrow reveal">06 — Let's Connect</p>
+        <h2 id="contact-title" class="section__title reveal">Ready to contribute from day one.</h2>
+        <p class="section__intro reveal">
+          I'm actively looking for full-time Python Full Stack Developer opportunities.
+          Feel free to reach out — I'd love to talk about how I can help your team.
+        </p>
+
+        <div class="contact__grid reveal">
+          <a href="mailto:ragulsam195@gmail.com" class="contact__item">
+            <span class="contact__icon" aria-hidden="true">✉️</span>
+            <span class="contact__label">Email</span>
+            <span class="contact__value">ragulsam195@gmail.com</span>
+          </a>
+          <a href="tel:+919042930496" class="contact__item">
+            <span class="contact__icon" aria-hidden="true">📱</span>
+            <span class="contact__label">Mobile</span>
+            <span class="contact__value">+91 90429 30496</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ragul-msc" target="_blank" rel="noopener" class="contact__item">
+            <span class="contact__icon" aria-hidden="true">💼</span>
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">linkedin.com/in/ragul-msc</span>
+          </a>
+          <a href="https://github.com/RagulR-04" target="_blank" rel="noopener" class="contact__item">
+            <span class="contact__icon" aria-hidden="true">💻</span>
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">github.com/RagulR-04</span>
+          </a>
+        </div>
+
+        <div class="contact__actions reveal">
+          <a href="mailto:ragulsam195@gmail.com" class="btn btn--primary">Email Me</a>
+          <a href="./resume/Ragul_R_Resume.pdf" download class="btn btn--ghost">Download Résumé</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Ragul R. Crafted with HTML, CSS &amp; JavaScript.</p>
+      <p class="footer__loc">📍 Tamil Nadu, India</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
